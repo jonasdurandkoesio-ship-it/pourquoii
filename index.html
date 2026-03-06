@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Recherche…</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+    .dot { animation: blink 1s infinite; font-size: 50px; }
+    @keyframes blink { 0% {opacity: 0;} 50% {opacity: 1;} 100% {opacity: 0;} }
+  </style>
+</head>
+<body>
+
+<h1>Tape la recherche…</h1>
+<p>
+  <span class="dot">.</span>
+  <span class="dot">.</span>
+  <span class="dot">.</span>
+</p>
+
+<script>
+  // Temps avant d'afficher l'image (en ms)
+  const DELAY = 3500;
+
+  setTimeout(() => {
+    // L’URL de l’image que tu veux afficher
+    window.location.href = "https://www.letribunaldunet.fr/photos/photos-les-bronzages-les-plus-rates.html/2";
+  }, DELAY);
+</script>
+
+</body>
+</html>
